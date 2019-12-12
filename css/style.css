@@ -1,0 +1,124 @@
+/*********** Body ***************/
+body {
+  margin: 0;
+  width: 100%;
+  background-color: skyblue;
+  font-family: 'Solway', serif;
+
+}
+
+/********** NAVIGATION **********/
+
+.nav-bar {
+  height: 100px;
+  width: 100%;
+  background-color: whitesmoke;
+  Position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0%;
+}
+
+.logo{
+  height: 100px;
+}
+.nav-list {
+  float: right;
+  padding-top: 20px;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: x-large;
+}
+.list-item {
+  height: 27px;
+  width: 52px;
+  display: inline-block;
+  color: white;
+  list-style-type: none;
+  margin-right: 40px;
+  padding: 3px;
+  text-align: center;
+  border: 2px gray;
+  border-radius: 10px;
+}
+.list-item a {
+  text-decoration: none;
+  color: black;
+}
+li:hover {
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+li a:hover {
+  color: #C1C6C7;
+}
+
+
+/* ******end of nav ******** */
+
+.main {
+  height: 500px;
+  width: 100%;
+  background-image: url('../img/Beach-ball.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 150px;
+} 
+
+h1 {
+  margin-left: 39%;
+  margin-top: 8%;
+}
+
+h2 {
+  margin-left: 42%;
+  padding: 0;
+}
+
+/******END OF MAIN*******/
+
+.home-section {
+  height: 500px;
+  width: 100%;
+}
+
+.col {
+  height: 450px;
+  width: 33%;
+  border: grey 3px solid;
+  float: left;
+  margin-left: 110px;
+  margin-top: 10px;
+  display: block;
+
+}
+
+.beach-ball {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.sec-text p {
+  text-align: center;
+  margin: 50px 20px 0px 20px;
+  
+}
+/* *******End of Section */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  color:  black;
+  text-align: center;
+  font-size: large;
+}
